@@ -47,7 +47,7 @@ signs:
       - "${signature}"
       - "--detach-sign"
       - "${artifact}"
-release:
-  draft: true
+# release:
+#   draft: true
 changelog:
   skip: true
